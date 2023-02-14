@@ -3,6 +3,7 @@ import Header from '@/componentes/Header'
 import React from 'react';
 import DynaPredict from '@/componentes/DynaPredict';
 import Senores from '@/componentes/Sensores';
+import Contact from '@/componentes/Contato';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <Header/>
         <DynaPredict/>
         <Senores />
+        <Contact />
       </main>
     </>
   )
