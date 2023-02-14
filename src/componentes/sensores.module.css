@@ -1,9 +1,11 @@
 .center {
-    display: flex;
-    justify-content: center;
-    text-align: center ;
     height: 820px;
     font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .maxWidth {
@@ -11,6 +13,10 @@
 }
 .content {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
 }
 .content .text{
     margin-top: 95px;
