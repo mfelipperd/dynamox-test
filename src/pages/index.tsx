@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Header from '@/componentes/Header'
 import React from 'react';
-import DynaPredict from '@/componentes/dynaPredict';
+import DynaPredict from '@/componentes/DynaPredict';
+import Senores from '@/componentes/Sensores';
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Header/>
         <DynaPredict/>
+        <Senores />
       </main>
     </>
   )
