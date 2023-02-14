@@ -39,7 +39,10 @@
     color: #454545;
     
 }
-.center .content button {
+.center .content a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 183px;
     height: 39px;
     background: #263252;
@@ -51,6 +54,16 @@
     line-height: 23px;
     text-transform: uppercase;
     margin-top: 27px;
+    border: 0px solid;
+}
+
+.center .content a:hover {
+    background: rgb(226, 223, 223);
+    color: #263252;
+}
+.center .content a:active {
+    vertical-align: top;
+    font-size: 25px;
 }
 
 .center .content .images{

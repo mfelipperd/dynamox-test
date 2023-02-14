@@ -18,7 +18,7 @@ export default function Senores() {
         são centralizados na Plataforma DynaPredict Web para análise, prognóstico e tomada de decisão.
                         </p>
                     </div>
-                <button>ver mais</button>
+                <a href="https://dynamox.net/dynapredict/.">ver mais</a>
                 <div className={style.images}>
                     <div className={style.containerImg}>
                         <img src="tca 3.png" alt="sensor tca 3" />

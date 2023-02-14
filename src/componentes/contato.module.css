@@ -66,3 +66,13 @@
     border: 0px solid;
     margin: 19px 41px;
 }
+
+.content button:active {
+    vertical-align: top;
+    font-size: 25px;
+}
+
+.content button:hover {
+    background-color: white;
+    color: #0165DB;
+}
