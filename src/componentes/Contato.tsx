@@ -4,7 +4,7 @@ import style from "./contato.module.css";
 export default function Contact() {
     return (
         <>
-        <div className={style.footer}>
+        <div className={style.footer} id="contato">
             <div className={style.maxWidth}>
                 <div className={style.content}>
                     <div className={style.title}>

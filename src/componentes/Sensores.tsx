@@ -4,7 +4,7 @@ import style from "./sensores.module.css";
 export default function Senores() {
     return (
         <>
-        <div className={style.center}>
+        <div className={style.center} id="sensores">
             <div className={style.maxWidth}>
                 <div className={style.content}>
                     <div className={style.text}>

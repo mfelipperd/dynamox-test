@@ -7,11 +7,13 @@ export default function Header() {
         <nav className={style.Header}>
             <div className={style.maxWidth}>
             <div className={style.content}>
+                <a href="https://dynamox.net/">
                 <img src="logo-dynamox.png" alt="logo Dynamox" />
+                </a>
             <div className={style.buttons}>
-                <li><a href="">DynaPredict</a></li>
-                <li><a href="">Sensores</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="https://dynamox.net/dynapredict/">DynaPredict</a></li>
+                <li><a href="#sensores">Sensores</a></li>
+                <li><a href="#contato">Contato</a></li>
             </div>
             </div>
             </div>

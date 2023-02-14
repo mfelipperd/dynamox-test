@@ -3,7 +3,7 @@
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: white;
 }
@@ -54,7 +54,7 @@
 }
 
 .center .content .images{
-    margin-top: 95px;
+    margin-top: 95px, 39px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
